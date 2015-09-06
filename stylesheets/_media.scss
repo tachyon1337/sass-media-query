@@ -32,7 +32,7 @@ $media-medium-portrait: "only screen and (max-width: #{map-get($Breakpoint,mediu
 $media-touch: "only screen and (max-width: #{map-get($Breakpoint,medium)}) and (min-width: #{map-get($Breakpoint,tiny)})" !default;
 
 /// large
-$media-large: "only screen and (min-width: #{map-get($Breakpoint,large)}) and (max-width:#{map-get($Breakpoint,x-large)})" !default;
+$media-large: "only screen and (min-width: #{map-get($Breakpoint,large)})" !default;
 
 /// x-large
 $media-x-large: "only screen and (min-width: #{map-get($Breakpoint,x-large)})" !default;
